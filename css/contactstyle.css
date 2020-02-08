@@ -1,0 +1,145 @@
+@import 'fonts.css';
+
+
+:root{
+    --m-l:'montserrat-light';
+    --r-b:'raleway-bold';
+    --r-e-b:'raleway-extrabold';
+    --r-m:'raleway-medium';
+    --r-r:'raleway-regular';
+    --r-s: 'raleway-semibold';
+}
+
+
+
+body{
+    min-width: 320px;
+    font-family: var(--m-l);
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+header .nav-link{
+    color: black !important;
+    transition: 0.5s;
+    font-family: var(--r-b);
+    font-size: 14px;
+}
+header .nav-link:hover{
+    color: #007d2f !important;
+}
+
+header .contact{
+    font-size: 13px;
+}
+
+header .contact h5{
+    color: black;
+    margin: 100px 0 30px 0;
+    font-size: 30px;
+}
+header .contact p{
+    color: black;
+    font-size: 14px;
+}
+header .contact p a{
+    color: rgb(129, 128, 128);
+}
+
+header .textareablock{
+    width: 100%;    
+    margin-top: 90px;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow:  5px 5px 32px #8a8a8a, 
+                -5px -5px 32px #ffffff;
+    padding: 20px;            
+}
+
+
+header .textareablock .btn{
+    padding: 18px 40px;
+    background: #007d2f;
+    color: white;
+    font-size: 14px;
+    border-radius: unset;
+    margin-top: 55px;
+    transition: 0.5s;
+}
+header .textareablock .btn:hover{
+    background: #6ace90;
+    box-shadow: 0 15 14 #8c8c8c;
+}
+
+
+
+header .karta{
+    margin: 200px 0;
+}
+
+header .karta img{
+    width: 100%;
+}
+
+footer{
+    background: #141414;
+    color: #bcbcbc;
+    
+}
+footer h5{
+    color: white;
+    font-size: 20px;
+}
+footer a{
+    color: #bcbcbc;
+    font-size: 18px;
+    text-decoration: none !important;
+    list-style: unset !important;
+    
+}
+footer  li a{
+    color: #bcbcbc;
+    font-size: 18px;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+footer .block_footer{
+    margin: 50px 0;
+}
+
+
+
+
+
+@media (max-width:991px){
+    header .textareablock {
+        margin-top: 35px;
+        
+    }
+    
+    header .contact h5 {
+        margin: 75px 0 30px 0;
+        
+    }
+    
+    
+    header .textareablock .btn {
+        margin-top: 35px;
+        
+    }
+    
+    header .karta {
+        margin: 110px 0;
+    }
+    
+    footer .block_footer{
+        margin: 35px 0;
+    }
+}
+
+
+
+@media (max-width:767px){
+    
+}

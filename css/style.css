@@ -1,0 +1,510 @@
+@import 'fonts.css';
+
+
+:root{
+    --m-l:'montserrat-light';
+    --r-b:'raleway-bold';
+    --r-e-b:'raleway-extrabold';
+    --r-m:'raleway-medium';
+    --r-r:'raleway-regular';
+    --r-s: 'raleway-semibold';
+}
+
+
+
+body{
+    min-width: 320px;
+    font-family: var(--m-l);
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+header{
+    background: url(../img/fon-one.jpg)no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+header .menu_top{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+
+header .menu_top .nav-link{
+    color: black !important;
+    font-size: 14px;
+    transition: 0.5s;
+    font-family: var(--r-b);
+
+}
+header .menu_top .nav-link:hover{
+    color: green;
+    
+}
+
+header .block_text h1{
+    font-size: 35px;
+    margin-top: 175px !important;
+    color: #1d1d1d
+}
+
+header .block_text p{
+    margin-top: 35px;
+}
+
+header .block_text .btn{
+    padding: 22px 45px;
+    background: #007d2f;
+    color: white;
+    font-size: 12px;
+    border-radius: unset;
+    margin-top: 55px;
+    transition: 0.5s;
+}
+
+header .block_text .btn:hover{
+    background: #6ace90;
+    box-shadow: 0 15 14 #8c8c8c;
+}
+
+
+/* About */
+
+.About{
+    padding: 100px 0 42px 0;
+}
+
+.About h2{
+    color: #1d1d1d;
+    
+    
+}
+.About p{
+    color: #1d1d1d;
+    margin: 40px 0;
+}
+
+.About img{
+    width: 50%;
+}
+
+/* Skills*/
+
+.skills{
+    background: #f8f9f9;
+}
+
+
+
+.skills img{
+    width: 100%;
+}
+
+.skills .skills-row{
+    
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.skills .skills-col{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.skills h3{
+    font-size: 30px;
+    color: #1d1d1d !important;
+    
+    
+}
+.skills p{
+    font-size: 12px;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+}
+
+.skills .design::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    display: block;
+    background: linear-gradient(to right, #007d2f 75%, #d8d8d8 25%);
+    margin-top: 30px;
+    
+}
+.skills .web::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    display: block;
+    background: linear-gradient(to right, #007d2f 90%, #d8d8d8 10%);
+    margin-top: 30px;
+    
+}
+.skills .marketing::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    display: block;
+    background: linear-gradient(to right, #007d2f 65%, #d8d8d8 35%);
+    margin-top: 30px;
+    
+}
+
+.skills .skills_text{
+    padding: 166px 55px 0 120px;
+    
+}
+
+/* Icons */
+
+.icons{
+    background: #007d2f;
+    color: white;
+    padding: 60px 0;
+}
+
+.icons i{
+    font-size: 35px;
+    padding: 5px 0;
+    margin-top: 15px;
+}
+
+.icons p{
+    margin-bottom: 15px;
+}
+
+.photos img{
+    width: 100%;
+}
+
+
+/* Gallery */
+
+
+
+
+.gallery .gallery-row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.gallery .gallery-col{
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+.gallery img{
+    width: 100%;
+    transition: 0.5s;
+}
+.gallery .gallery-box{
+    background: #252525;
+    position: relative;
+}
+
+
+.gallery .gallery-box .icon{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: none;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    transition: 0.5s;
+    
+}
+.gallery .gallery-box:hover img{
+    opacity: 0.3;
+}
+.gallery .gallery-box:hover .icon{
+    display: block;
+}
+
+.gallery .load{
+    background: #007d2f;
+    padding: 40px 0;
+    text-align: center;
+    
+}
+.gallery .load h5{
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    
+}
+
+/* workpress*/
+
+.workprees .image_div img{
+    width: 100%;
+}
+
+
+.workprees .image_div{
+    position: relative;
+}
+
+.workprees .image_div .play{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    
+}
+
+.workprees .image_div .play i{
+    font-size: 50px;
+    background: #007d2f;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+    
+
+
+.workprees{
+    padding: 75px 0;
+}
+.workprees h5{
+    font-size: 43px;
+    color: #191919;
+}
+.workprees p{
+    font-size: 22px;
+    color: #787878;
+    margin: 50px 0;
+}
+/* ICONs*/
+
+.iconn{
+    padding: 50px 0;
+    background: #e2e2e2;
+}
+
+.iconn .icon_div{
+    margin: 50px 0;
+    
+}
+
+.iconn .icon_div i{
+    font-size: 35px;
+    margin: 15px 0;
+    
+}
+.iconn .icon_div h5{
+    font-size: 14px;
+    color: black;
+    font-family: var(--r-e-b);
+    text-transform: uppercase;
+}
+.iconn .icon_div p{
+    font-size: 15px;
+    
+}
+
+
+
+
+/* Slider */
+
+
+
+.slider{
+    background: #007d2f;
+}
+
+
+.slider .carousel-item{
+    height: 500px;
+    
+}
+
+.slider .carousel-caption {
+    bottom: 35%;
+    
+}
+
+.slider .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+/* block logo*/
+
+
+
+.block-logo{
+    padding-bottom: 68px;
+}
+
+.block-logo img{
+    width: 55%;
+    margin-top: 68px;
+}
+
+
+
+/*need-project */ 
+
+.need-project{
+    background: #e2e2e2;
+    padding: 28px 0 100px 0;
+}
+
+.need-project h5{
+    color: black;
+    font-size: 38px;
+    margin: 30px 0;
+}
+
+
+.need-project input{
+    width: 100%;
+    padding: 18px 15px;
+    border: 0;
+    font-size: 15px;
+    color: #787878;
+    margin-top: 30px;
+    
+}
+.need-project textarea{
+    width: 100%;
+    margin-top: 30px;
+    border: 0;
+    font-size: 15px;
+    color: #787878;
+    padding: 18px 15px;
+}
+
+
+.need-project .btn{
+    padding: 22px 45px;
+    background: #007d2f;
+    color: white;
+    font-size: 12px;
+    border-radius: unset;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+.need-project .btn:hover{
+    background: #6ace90;
+    box-shadow: 0 15 14 #8c8c8c;
+}
+
+
+
+/* FOOTER */
+
+
+
+footer{
+    background: #141414;
+    color: #bcbcbc;
+    
+}
+footer h5{
+    color: white;
+    font-size: 20px;
+}
+footer a{
+    color: #bcbcbc;
+    font-size: 18px;
+    text-decoration: none !important;
+    list-style: unset !important;
+    
+}
+footer .block_footer li {
+    color: #bcbcbc;
+    font-size: 18px;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+footer .block_footer{
+    margin: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media start*/
+
+@media (max-width:1150px){
+    .skills .skills_text{
+        padding: 80px 55px 0 100px;
+        
+    }
+}
+@media (max-width:991px){
+   header .navbar-nav{
+       background: #c1c4c2;
+       padding-right: 20px;
+       text-align: end;
+       border-radius: 25px;
+       box-shadow: 5px 5px 5px 8px;
+   }
+   
+   footer .block_footer{
+    margin: 35px 0;
+}
+}
+
+@media (max-width:865px){
+    .skills p{
+        font-size: 12px;
+        color: #1d1d1d;
+        text-transform: uppercase;
+        margin-top: 10px;
+        
+    }
+    
+    .skills h3{
+        font-size: 22px;
+    }
+    
+    .skills .design::after{
+        margin-top: 10px;
+        
+    }
+    .skills .web::after{
+        margin-top: 10px;
+        
+    }
+    .skills .marketing::after{
+        margin-top: 10px;
+        
+    }
+    
+}
+
+@media (max-width:767px){
+    .skills .skills_text{
+        padding: 100px 55px 100px 55px;
+        
+    }
+}

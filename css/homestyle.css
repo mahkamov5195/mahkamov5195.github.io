@@ -1,0 +1,162 @@
+@import 'fonts.css';
+
+
+:root{
+    --m-l:'montserrat-light';
+    --r-b:'raleway-bold';
+    --r-e-b:'raleway-extrabold';
+    --r-m:'raleway-medium';
+    --r-r:'raleway-regular';
+    --r-s: 'raleway-semibold';
+}
+
+
+
+body{
+    min-width: 320px;
+    font-family: var(--m-l);
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.nav{
+    background: #ffffff;
+    
+}
+.nav .nav-link{
+    color: black !important;
+    transition: 0.5s;
+    font-family: var(--r-b);
+    font-size: 14px;
+    
+}
+.nav .nav-link:hover{
+    color: #007d2f !important;
+}
+
+.header_text{
+    padding: 90px 0;
+    background:linear-gradient(-45deg,#016327, #57a073, #7edda2, #57a073, #016327);
+    position: relative;
+    animation: animate 20s ease-in-out infinite;
+    background-size: 400% 400%;    
+    color: white;
+}
+
+
+.header_text h4{
+    color: black;
+    margin: 20px 0;
+}
+.header_text p{
+    margin: 30px 0;
+}
+
+.gallery img{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.gallery .gallery-row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.gallery .gallery-col{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.gallery .gallery-box{
+    background: #252525;
+    position: relative;
+    transition: 0.5s;
+}
+
+.gallery .gallery-box .iconn{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: none;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    transition: 0.5s;
+}
+
+.gallery .gallery-box .iconn i{
+    font-size: 35px;
+    color: white;
+}
+.gallery .gallery-box:hover img{
+    opacity: 0.3;
+}
+.gallery .gallery-box:hover .iconn{
+    display: block;
+}
+
+footer{
+    background: #141414;
+    color: #bcbcbc;
+    
+}
+footer h5{
+    color: white;
+    font-size: 20px;
+}
+footer a{
+    color: #bcbcbc;
+    font-size: 18px;
+    text-decoration: none !important;
+    list-style: unset !important;
+    
+}
+footer  li a{
+    color: #bcbcbc;
+    font-size: 18px;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+footer .block_footer{
+    margin: 70px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animate{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+
+@media (max-width:991px){
+    footer .block_footer{
+        margin: 35px 0;
+    } 
+}
